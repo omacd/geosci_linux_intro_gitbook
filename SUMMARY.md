@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Login](login/README.md)
+  * [Connecting to XRDP in a Windows Lab](login/login_xrdp_windows.md)
+ * [Login](login/README.md)
 * [Basics](basics/README.md)
   * [The Bash prompt](basics/bash_prompt.md)
   * [Changing directories](basics/change_dir.md)
