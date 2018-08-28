@@ -2,13 +2,11 @@
 
 There are three main ways to access systems running Linux in the School of GeoSciences:
 
-* Login directly to a GeoSciences Linux workstation, which access the Linux servers by default
-* Login to a GeoSciences Windows machine and connect to a Linux server remotely
-* Login to a Linux server remotely from your personal computer, when connected to the University VPN
+* Login directly to a GeoSciences Linux workstation and use an ssh terminal to connect to a specific server if required
+* Login to a GeoSciences Windows machine and connect to Linux using Remote Desktop
+* Login to a Linux server from your personal computer using Remote Desktop
 
-By far the most common way to access Linux is to use a GeoSciences Windows machine and connect to a Linux server remotely, though using a personal computer or laptop is becoming more popular.
-
-![](../.gitbook/assets/net_struc.png)
+By far the most common way to access Linux is to use a GeoSciences Windows machine and connect to a Linux server with Remote Desktop, though using a personal computer or laptop is becoming more popular.
 
 Most of the tasks you will need to use a Linux server for can be achieved through a command line interface like the one in the picture below:
 
