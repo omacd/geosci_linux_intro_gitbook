@@ -1,4 +1,4 @@
-# Introduction
+# University of Edinburgh - School of GeoSciences Linux Environment
 
 ## Introduction
 
