@@ -12,7 +12,7 @@ The specific variant of UNIX that the GeoSciences machines run is called Linux.
 
 Why are UNIX based operating systems useful in academia?
 
-- You can easily tell the computer what to do by typing commands in the command line, rather than pointing and clicking. Using the command line allows you to quickly repeat complex actions by simply copying the text, whereas on a point and click interface you would have to repeat all the clicks one after another. Minimising repeated clickng also decreases the chance of clicking on the wrong thing, reducing potential errors in your analyses.
+- You can easily tell the computer what to do by typing commands in the command line, rather than pointing and clicking. Using the command line allows you to quickly repeat complex actions by simply copying the text, whereas on a point and click interface you would have to repeat all the clicks one after another. Minimising repeated clicking also decreases the chance of clicking on the wrong thing, reducing potential errors in your analyses.
 - Much of the software available on UNIX operating systems is free and open source, meaning that everybody has access to the code used to create it. This means that you know exactly what the program is doing in the background, making it easier for your research to be [reproduced by others](https://academic.oup.com/bioscience/article/56/12/958/221622).
 
 
@@ -23,7 +23,7 @@ Students use the GeoSciences UNIX systems for a variety of tasks, including but 
 - Running an email server
 - Statistical programming
 
-While this workshop is not designed to be a definitive reference for all things UNIX, it should provide a good introduction from which you can continue(http://www.geos.ed.ac.uk/) to learn about this powerful computing resource.
+While this workshop is not designed to be a definitive reference for all things UNIX, it should provide a good introduction from which you can continue to learn about this powerful computing resource.
 
 All the introduction materials, including the raw files for this [gitbook](https://www.gitbook.com/), can be found here:
 
