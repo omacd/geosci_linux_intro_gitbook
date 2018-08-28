@@ -22,7 +22,7 @@ Students use the GeoSciences UNIX systems for a variety of tasks, including but 
 * Running an email server
 * Statistical programming
 
-While this workshop is not designed to be a definitive reference for all things UNIX, it should provide a good introduction from which you can continue to learn about this powerful computing resource TEST.
+While this workshop is not designed to be a definitive reference for all things UNIX, it should provide a good introduction from which you can continue to learn about this powerful computing resource.
 
 All the introduction materials, including the raw files for this [gitbook](https://www.gitbook.com/), can be found here:
 
