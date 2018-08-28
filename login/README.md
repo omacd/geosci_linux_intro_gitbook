@@ -12,7 +12,7 @@ Most of the tasks you will need to use a Linux server for can be achieved throug
 
 ![](../.gitbook/assets/cli.png)
 
-But you can also login using conventional graphical user interface. Some programs even require a graphical user interface \(GUI\), which looks like the image below:
+But you can also login using a conventional graphical user interface. Some programs even require a graphical user interface \(GUI\), which on GeoSciences systems looks like the image below:
 
 ![](../.gitbook/assets/gui.png)
 
