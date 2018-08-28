@@ -1,4 +1,4 @@
-# Printing files from the command line
+# Printing files
 
 To quickly print a file from the command line you can use the `lp` suite of commands.
 

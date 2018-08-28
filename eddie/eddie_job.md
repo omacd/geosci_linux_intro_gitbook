@@ -1,16 +1,16 @@
-# Submitting a Job to `eddie`
+# Submitting a job to eddie
 
 The most common method of submitting computing work to `eddie` is as a batch job. To do this you must write a `jobscript.sh` bash script which calls any computation jobs.
 
 To submit a jobscript you can use `qsub`:
 
-```
+```text
 qsub jobscript.sh
 ```
 
 Here is an example jobscript, which simply loads python then runs another python script:
 
-```
+```text
 #!/bin/sh
 # Grid Engine options (lines prefixed with #$)
 #$ -N hello
@@ -33,5 +33,5 @@ module load Python/3.4.3
 ./hello.py
 ```
 
-You can find more information on using `eddie` <a href="https://www.wiki.ed.ac.uk/display/ResearchServices/Quickstart" target=_blank>here</a>.
+You can find more information on using `eddie` [here](https://www.wiki.ed.ac.uk/display/ResearchServices/Quickstart).
 

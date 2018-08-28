@@ -1,16 +1,16 @@
-# Shared resources
+# Shared spaces
 
 As well as your personal data stored in the `home` directory, if you are a GeoSciences student you can access shared data in the `/geos` directory. This might be the data for a specific course like the Kindrogan field course, or open access data such as shapefiles for Scotland's roads.
 
 Move to the `/geos` directory like this:
 
-```
+```text
 cd /geos
 ```
 
 You can also access this space with the following `cd` commands:
 
-```
+```text
 cd /
 cd geos
 ```
@@ -19,9 +19,9 @@ cd geos
 
 It is important to note that while you can open files in the shared space, it is unlikely that you will have permission to edit them. Instead you can copy them to your `home` directory using `cp` to have an editable copy. See the previous section on Basic file and directory operations for more on file operations.
 
-Try this by copying the contents of the `/geos/netdata/wkzero` directory to your `home` (`~`) directory:
+Try this by copying the contents of the `/geos/netdata/wkzero` directory to your `home` \(`~`\) directory:
 
-```
+```text
 cd /geos/netdata
 
 cp -r wkzero/ ~

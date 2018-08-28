@@ -1,136 +1,33 @@
-# Quicklook command table
+# Quicklook Table
 
 This table contains a list of commands used in this workshop, with descriptions and examples.
 
-<style type="text/css">
-.tg {border-collapse:collapse;border-spacing:0}
-.tg th{border-style:solid;border-width:1px;word-break:normal;padding:10px 5px}
-</style>
-<table class="tg">
-<tr>
-<th>Command</th>
-<th>Function</th>
-<th>Example(s)</th>
-</tr>
-<tr>
-<th>`ls`</th>
-<th>List files/directories in the current directory</th>
-<th>`ls`<br>`ls ~/Desktop/dir`</th>
-</tr>
-<tr>
-<th>`cd`</th>
-<th>Change the directory</th>
-<th>`cd Desktop`<br>`cd ~/Desktop/GIS`<br>`cd ..`</th>
-</tr>
-<tr>
-<th>`cp`</th>
-<th>Copy a file/directory</th>
-<th>`cp file.txt ~/Desktop/file.txt`<br>`cp file.txt file_2.txt`<br>`cp GIS/ ~/Desktop/GIS_2`</th>
-</tr>
-<tr>
-<th>`mv`</th>
-<th>Move a file/directory</th>
-<th>`mv file.txt ~/Desktop/file.txt`<br>`mv file.txt file_2.txt`<br>`mv GIS/ ~/Desktop/GIS`</th>
-</tr>
-<tr>
-<th>`mkdir`</th>
-<th>Make a new directory</th>
-<th>`mkdir ~/Desktop/GIS`</th>
-</tr>
-<tr>
-<th>`pwd`</th>
-<th>Get the current directory</th>
-<th>`pwd`</th>
-</tr>
-<tr>
-<th>`rm`</th>
-<th>Remove a file/directory</th>
-<th>`rm file.txt`<br>`rm -r ~/Desktop/GIS`</th>
-</tr>
-<tr>
-<th>`ssh`</th>
-<th>Make a remote connection to another computer</th>
-<th>`ssh -x s1234567@burn.geos.ed.ac.uk`</th>
-</tr>
-<tr>
-<th>`man`</th>
-<th>Display the manual page for a command</th>
-<th>`man rm`<br>`man cd`</th>
-</tr>
-<tr>
-<th>`nano`</th>
-<th>Open the `nano` text editor</th>
-<th>`nano file.txt`</th>
-</tr>
-<tr>
-<th>`cat`</th>
-<th>Print the contents of a file in the terminal</th>
-<th>`cat file.txt`</th>
-</tr>
-<tr>
-<th>`ps`</th>
-<th>Display information on current processes</th>
-<th>`ps -af`</th>
-</tr>
-<tr>
-<th>`quota`</th>
-<th>Show memory allocation usage</th>
-<th>`quota -s`</th>
-</tr>
-<tr>
-<th>`du`</th>
-<th>Show current disk usage</th>
-<th>`du -sh ~/Documents/*`</th>
-</tr>
-<tr>
-<th>`kill`</th>
-<th>Terminate a process</th>
-<th>`kill -9 34673`</th>
-</tr>
-<tr>
-<th>`chmod`</th>
-<th>Alter the attributes of a file</th>
-<th>`chmod +x file.sh`</th>
-</tr>
-<tr>
-<th>`ftp`</th>
-<th>Open the ftp program for downloading files from external servers</th>
-<th>`ftp`</th>
-</tr>
-<tr>
-<th>`gzip`</th>
-<th>Un/compress a `.gz` file</th>
-<th>`gzip -d file.gz`</th>
-</tr>
-<tr>
-<th>`tar`</th>
-<th>Un/archive a `.tar` file</th>
-<th>`tar -xf file.tar`</th>
-</tr>
-<tr>
-<th>`zip`/`unzip`</th>
-<th>Un/zip `.zip` files</th>
-<th>`zip archive.zip file.txt file_2.txt`<br>`unzip archive.zip folder`</th>
-</tr>
-<tr>
-<th>`curl`/`wget`</th>
-<th>Download files from webpages</th>
-<th>`curl http://www.geos.ed.ac.uk/protocols.txt -o protocols.txt`<br>`wget http://www.geos.ed.ac.uk/page.html -r`</th>
-</tr>
-<tr>
-<th>`lp`</th>
-<th>Print files</th>
-<th>`lp file.txt`</th>
-</tr>
-<tr>
-<th>`lpq`</th>
-<th>Show the print queue</th>
-<th>`lpq`</th>
-</tr>
-<tr>
-<th>`lprm`</th>
-<th>Remove a file from print queue</th>
-<th>`lprm 46745`</th>
-</tr>
-</table>
+ .tg {border-collapse:collapse;border-spacing:0} .tg th{border-style:solid;border-width:1px;word-break:normal;padding:10px 5px} 
+
+| Command | Function | Example\(s\) |
+| :--- | :--- | :--- |
+| \`ls\` | List files/directories in the current directory | \`ls\` \`ls ~/Desktop/dir\` |
+| \`cd\` | Change the directory | \`cd Desktop\` \`cd ~/Desktop/GIS\` \`cd ..\` |
+| \`cp\` | Copy a file/directory | \`cp file.txt ~/Desktop/file.txt\` \`cp file.txt file\_2.txt\` \`cp GIS/ ~/Desktop/GIS\_2\` |
+| \`mv\` | Move a file/directory | \`mv file.txt ~/Desktop/file.txt\` \`mv file.txt file\_2.txt\` \`mv GIS/ ~/Desktop/GIS\` |
+| \`mkdir\` | Make a new directory | \`mkdir ~/Desktop/GIS\` |
+| \`pwd\` | Get the current directory | \`pwd\` |
+| \`rm\` | Remove a file/directory | \`rm file.txt\` \`rm -r ~/Desktop/GIS\` |
+| \`ssh\` | Make a remote connection to another computer | \`ssh -x s1234567@burn.geos.ed.ac.uk\` |
+| \`man\` | Display the manual page for a command | \`man rm\` \`man cd\` |
+| \`nano\` | Open the \`nano\` text editor | \`nano file.txt\` |
+| \`cat\` | Print the contents of a file in the terminal | \`cat file.txt\` |
+| \`ps\` | Display information on current processes | \`ps -af\` |
+| \`quota\` | Show memory allocation usage | \`quota -s\` |
+| \`du\` | Show current disk usage | \`du -sh ~/Documents/\*\` |
+| \`kill\` | Terminate a process | \`kill -9 34673\` |
+| \`chmod\` | Alter the attributes of a file | \`chmod +x file.sh\` |
+| \`ftp\` | Open the ftp program for downloading files from external servers | \`ftp\` |
+| \`gzip\` | Un/compress a \`.gz\` file | \`gzip -d file.gz\` |
+| \`tar\` | Un/archive a \`.tar\` file | \`tar -xf file.tar\` |
+| \`zip\`/\`unzip\` | Un/zip \`.zip\` files | \`zip archive.zip file.txt file\_2.txt\` \`unzip archive.zip folder\` |
+| \`curl\`/\`wget\` | Download files from webpages | \`curl http://www.geos.ed.ac.uk/protocols.txt -o protocols.txt\` \`wget http://www.geos.ed.ac.uk/page.html -r\` |
+| \`lp\` | Print files | \`lp file.txt\` |
+| \`lpq\` | Show the print queue | \`lpq\` |
+| \`lprm\` | Remove a file from print queue | \`lprm 46745\` |
 

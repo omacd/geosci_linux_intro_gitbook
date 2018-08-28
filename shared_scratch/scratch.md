@@ -4,7 +4,7 @@ Another shared space that will be useful is `/scratch/s1234567`, obviously your 
 
 To move to your scratch space just type the following, switching out `s1234567` with your own UUN:
 
-```
+```text
 cd /scratch/s1234567
 ```
 
