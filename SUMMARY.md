@@ -2,13 +2,6 @@
 
 * [Introduction](README.md)
 * [Login](login/README.md)
-  * [Command line - GeoSciences Windows](login/login_geosci_windows_cli.md)
-  * [Command line - personal Windows](login/login_personal_windows_cli.md)
-  * [Command line - personal Mac](login/login_personal_mac_linux_cli.md)
-  * [GUI - GeoSciences Windows](login/login_geosci_windows_gui.md)
-  * [GUI - personal windows, Mac, Linux](login/login_personal_windows_mac_linux_gui.md)
-  * [Adding a network drive - personal Windows](login/network_windows.md)
-  * [Adding a network drive - personal Mac](login/network_mac.md)
 * [Basics](basics/README.md)
   * [The Bash prompt](basics/bash_prompt.md)
   * [Changing directories](basics/change_dir.md)
